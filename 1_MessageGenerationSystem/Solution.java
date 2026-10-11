@@ -76,7 +76,6 @@ public class MessageService {
             }
             message.append(" ");
             message.append(generator.generate(customer));
-
         }
         return message.toString()
     }
